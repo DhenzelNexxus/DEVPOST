@@ -1,0 +1,68 @@
+/* Estilos padrão para a Navbar */
+.NavBar {
+    background: linear-gradient(black, rgb(3, 50, 3));
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+}
+
+.Title {
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.Title a {
+    text-decoration: none;
+    color: rgb(0, 178, 0);
+}
+
+.ItemNav {
+    width: 50%;
+}
+
+.ItemNav ul {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.ItemNav a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+    color: rgb(0, 178, 0);
+    transition: 0.3s;
+}
+.ItemNav a:hover{
+    transition: 0.3s;
+    color: red;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    .NavBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Title, .ItemNav {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .ItemNav a {
+        margin: 5px 0;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+

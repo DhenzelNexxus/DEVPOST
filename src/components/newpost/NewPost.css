@@ -1,0 +1,44 @@
+.TitleNewPost{
+    text-align: center;
+    font-size: 50px;
+
+    margin-top: 50px;
+}
+
+.Input-Image{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Addlegenda{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.InputLegenda{
+    border-width: 3px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(7, 163, 7);
+}
+
+.InputLegendaFocus{
+    border-width: 3px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.ButtonSubmitDiv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ButtonSubmit{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgb(7, 163, 7);
+}

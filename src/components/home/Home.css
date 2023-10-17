@@ -1,0 +1,125 @@
+
+.pub{
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.legenda{
+    text-align: center;
+    font-size: 20px;
+    width: max-content;
+}
+
+.CardPost{
+    margin-top: 30px;
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+
+.Imagem{
+    width: 250px;
+    height: 200px;
+    
+}
+
+.ItensCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Define as colunas com largura mínima de 200px e preenche automaticamente o espaço disponível */
+    justify-content: flex-start;
+    
+}
+
+.slider{
+    width: 100%;
+}
+
+.inner{
+    display: flex;
+}
+
+.Item{
+    
+    padding: 14px;
+}
+
+
+
+.carousel{
+    cursor: grap;
+    overflow: hidden;
+}
+
+/* Adicione ao seu arquivo CSS */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.deleteButton{
+   width: 105px;
+   height: 30px;
+   border-radius: 10px;
+}
+  
